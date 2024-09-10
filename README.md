@@ -1,26 +1,27 @@
-# URL Shortener Website
+# MERN TODO Website
 
-A dynamic website for users who are tired of long URLs. URL Shortener converts your long and complex URLs into short, accessible URLs. Users can use these short URLs to access their long URLs directly.
+A simple Todo application built using the MERN stack (MongoDB, Express, React, Node.js), allowing users to manage their tasks efficiently.
 
 ## Features
 
-- **URL Shortening:** Convert long URLs into short, easy-to-share URLs.
-- **URL Redirection:** Automatically redirect short URLs to the original long URLs.
-- **Responsive Design:** Optimized for mobile, tablet, and desktop devices.
-- **Contact Section:** Provides a way for users to give feedback and collaborate.
+- **Create:** Add new tasks to the list.
+- **Read:**  View the list of tasks.
+- **Update:** Mark tasks as completed or edit task details.
+- **Delete:** Remove tasks from the list.
 
 ## Tech Stack
 
 - **Backend:** NodeJS, ExpressJS
-- **Frontend:** HTML, CSS, JavaScript, EmbeddedJS
+- **Frontend:** React
 - **Database:** MongoDB
 - **Version Control:** Git
 
 ## Project Highlights
 
-- **Custom 404 Error Page:** Displays possible error causes and provides a redirect button to the homepage.
-- **Unique URL Generation:** Uses shortId.generate a package that automatically shorts the Full URL.
-- **URL Extraction:** Extracts and correctly handles URL schemes (http, https) and hosts.
+- **CRUD Operations:** Implemented basic CRUD operations for managing tasks.
+- **State Management:** Efficient state management using React hooks.
+- **Responsive Design:** Optimized for different screen sizes to ensure a seamless user experience across devices.
+- **Neon-Themed UI:** Eye-catching neon colors for the background, inputs, and buttons to enhance user experience.
 
 ## Live Demo
 
@@ -32,22 +33,29 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/SaiHarsha0710/URL_Shortener.git
-    cd shortener
+    git clone https://github.com/SaiHarsha0710/Todo.git
+    cd Todo
     ```
 
-2. **Install Dependencies**
+2. **Backend and Install Dependencies**
     ```sh
-   npm install
+    cd backend
+    npm install
+    npm start
     ```
-
-3. **Start the Development Server**
+3. **Frontend and Install Dependencies**
+    ```sh
+    cd frontend
+    npm install
+    ```
+4. **Start the Development Server**
     ```sh
      npm start  
     ```
 
 4. **Access the Website**
-    Open your browser and navigate to http://localhost:3002.
+    Open your front-end browser and navigate to http://localhost:3000.
+    The backend should be running on http://localhost:1000 (or the port you've configured).
 
 ## Contribution Guidelines
 
