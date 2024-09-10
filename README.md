@@ -37,13 +37,13 @@ To run this project locally, follow these steps:
     cd Todo
     ```
 
-2. **Backend and Install Dependencies**
+2. **BackendInstall Dependencies for Backend**
     ```sh
     cd backend
     npm install
     npm start
     ```
-3. **Frontend and Install Dependencies**
+3. **Install Dependencies for Frontend**
     ```sh
     cd frontend
     npm install
