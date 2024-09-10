@@ -1,0 +1,93 @@
+#contactPage{
+    min-height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    overflow: hidden;
+    position: relative;
+    padding-top: 5rem; /* Added padding to account for sticky navbar */
+    margin-bottom: 50px;
+    background-color: #f0f0f5;
+}
+
+.contactPageTitle{
+    color:#00FF00;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    color:#0062FF;
+}
+
+.contactForm{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 60rem;
+}
+
+.name, .email, .msg, .subject{
+    font-size: medium;
+    width: 100%;
+    max-width: 60rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn{
+    background: #FFFF00;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem; /* Adjusted for better spacing */
+    margin-top: 2rem; /* Added margin for spacing */
+}
+
+.clientImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    border-radius: 50%; /* Optional: Makes the logos circular */
+}
+
+/* Placeholder styles */
+.name::placeholder,
+.email::placeholder,
+.subject::placeholder,
+.msg::placeholder {
+    color: #DDA0DD; /* Light purple color for placeholder text */
+    opacity: 1; /* Ensures full opacity for the color */
+}
+
+/* Optionally, you can adjust the placeholder color on focus */
+.name:focus::placeholder,
+.email:focus::placeholder,
+.subject:focus::placeholder,
+.msg:focus::placeholder {
+    color: #FF1493; /* Bright pink color when focused */
+}

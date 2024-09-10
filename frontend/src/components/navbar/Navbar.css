@@ -1,0 +1,24 @@
+/* CSS */
+.user-png {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-brand {
+    color: rebeccapurple;
+}
+
+.btn-nav {
+    background-color: #FD1C03;
+    border-radius: 5px;
+    color: #00FFFF !important;
+    font-weight: bold;
+}
+
+.nav-item.tr:hover .nav-link {
+    background-color: yellow !important; /* Ensures that the hover color is applied */
+}
+
+.nav-item.tr1:hover .nav-link {
+    color: yellow !important; /* Ensures that the hover color is applied */
+}
