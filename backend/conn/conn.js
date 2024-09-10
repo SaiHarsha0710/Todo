@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 // Use the correct syntax to access the environment variable
-const mongoUrl = process.env.dburl;
+const mongoUrl = process.env.mong_dburl;
 
 // Set up MongoDB connection
 mongoose.connect(mongoUrl, {
