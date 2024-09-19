@@ -22,17 +22,3 @@ app.use("/api/v2",list );
 app.listen(1000, () => {
     console.log("Server started on port 1000");
 });
-
-
-/*const conn1 = require("./conn/conn");
-
-const cors = require("cors");
-
-app.use(cors());*/
-
-/*app.use(express.json());
-
-app.get("/", (req, res) => {
-    res.send("Hello");
-});
-*/
